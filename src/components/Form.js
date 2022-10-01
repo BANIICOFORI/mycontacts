@@ -54,7 +54,7 @@ function Form() {
           <button
             onClick={ async() => {
               if (page === FormTitles.length - 1) {
-                alert("Confirm your Submition");
+                alert("FORM SUBMITTED");
                 try {
                   const docRef = await addDoc(collection(db, "Register"), 
                   formData
